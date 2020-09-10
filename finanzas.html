@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_logo">
+                <img src="./public/img/logo.png" alt="logo" class="logo_img">
+                <div class="header_information">
+                    <span>CAJERO</span>
+                    <span>Usuario: Mariana Soto</span>
+                    <span>Fecha: 01/01/20</span>
+                </div>
+            </div>
+            <div class="power_nav">
+                <i class="fas fa-power-off"></i>
+            </div>
+        </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Caja</a>
+                </li>
+                <li class="active">
+                    <a href="finanzas.html">Finanzas</a>
+                </li>
+                <li>
+                    <a href="">Facturación</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="container">
+        <div class="container_date">
+            <div class="date_row">
+                <div>
+                    <span>INGRESOS</span><br>
+                    <span>Elegir rango de fechas</span>
+                </div>
+                <div>
+                    <span>Inicio</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <span>Fin</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">Generar</button>
+                </div>
+            </div>
+            <div class="date_row">
+                <div>
+                    <span>GASTOS</span><br>
+                    <span>Elegir rango de fechas</span>
+                </div>
+                <div>
+                    <span>Inicio</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <span>Fin</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">Generar</button>
+                </div>
+            </div>
+            <hr>
+            <div class="date_row">
+                <div>
+                    <span>HISTORIAL DE VENTAS</span><br>
+                    <span>Elegir rango de fechas</span>
+                </div>
+                <div>
+                    <span>Inicio</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <span>Fin</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">Generar</button>
+                </div>
+            </div>
+            <div class="date_row" style="margin-left: -225px;">
+                <div>
+                    <span>UTILIDAD DIARIA</span>
+                </div>
+                <div>
+                    <span>Fecha</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">Ver</button>
+                </div>
+            </div>
+            <div class="date_row">
+                <div>
+                    <span>UTILIDAD DIARIA</span>
+                </div>
+                <div>
+                    <span>Mes</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <span>Año</span><input type="date" name="" id="">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">Ver</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/public/script.js"></script>
+</body>
+
+</html>

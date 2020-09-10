@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_logo">
+                <img src="./public/img/logo.png" alt="logo" class="logo_img">
+                <div class="header_information">
+                    <span>CAJERO</span>
+                    <span>Usuario: Mariana Soto</span>
+                    <span>Fecha: 01/01/20</span>
+                </div>
+            </div>
+            <div class="header_money">
+                <span>Sub-total: 
+                    <span class="price"> $8.970</span>
+                </span>
+                <span>Descuento: <input type="text" name="inputDesc" id="inputDesc"></span>
+                <span style="text-align: center;">Total: 
+                <span class="price"> $8.970</span>
+                </span>
+                <div style="text-align: center;">
+                    <button type="button" class="btn btn-primary">Pagar</button>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="active">
+                    <a href="home.html">Caja</a>
+                </li>
+                <li>
+                    <a href="finanzas.html">Finanzas</a>
+                </li>
+                <li>
+                    <a href="">Facturación</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="container">
+        <div class="left_container">
+            <div class="header">
+                <span>Mesa: 
+                    <div>
+                        <select name="num" class="select_options">
+                        <option value="22">22 </option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                          </select>
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                </span>
+                <span>Referencia: RES:000001</span>
+                <span>Garzon: Pedro Lopez</span>
+            </div>
+            <div class="menu">
+                <span>Menu</span>
+                <button type="button" class="btn btn-primary">Picoteo</button>
+                <button type="button" class="btn btn-primary">Platos de entrada</button>
+                <button type="button" class="btn btn-primary">Platos de Fondo</button>
+                <button type="button" class="btn btn-primary active">Postres</button>
+                <button type="button" class="btn btn-primary">Bebestibles</button>
+            </div>
+            <div class="power">
+                <i class="fas fa-power-off"></i>
+            </div>
+        </div>
+        <div class="container_xl">
+            <div class="center_container">
+                <div>
+                    <img src="https://urgente24.com/sites/default/files/2020-04/pan.jpg" alt="postre"><br>
+                    <small>Panqueques</small>
+                </div>
+                <div>
+                    <img src="https://img-global.cpcdn.com/recipes/563ac90b62cc0ea0/1200x630cq70/photo.jpg" alt="postre"><br>
+                    <small>Rollos de chocolate</small>
+                </div>
+                <div>
+                    <img src="https://taksidomodedovo.com/images/5111_032210_caramel_desserts_prev_vx.jpg" alt="postre"><br>
+                    <small>Sufle Caramelo</small>
+                </div>
+                <div>
+                    <img src="https://t2.rg.ltmcdn.com/es/images/9/3/1/pie_de_limon_peruano_69139_600.jpg" alt="postre"><br>
+                    <small>Pie de limon</small>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN3nKtD14XDvEFmwLyrDMADh4AY1anWxXHxQ&usqp=CAU" alt="postre"><br>
+                    <small>Futrillas a la crema</small>
+                </div>
+                <div>
+                    <img src="https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormick-us/recipes/mccormick/n/800/new-york-style-vanilla-cheesecake.jpg" alt=""><br>
+                    <small>Cheescake</small>
+                </div>
+                <div>
+                    <img src="https://www.pequeocio.com/wp-content/uploads/2015/06/batidos-de-fruta-1.jpg" alt="postre"><br>
+                    <small>Batido de fruta</small>
+                </div>
+            </div>
+
+            <div class="right_container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: start;">Cant</th>
+                            <th style="text-align: start;">Producto</th>
+                            <th style="text-align: start;">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>Panqueques</td>
+                            <td>$2.990</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Pie Limon</td>
+                            <td>$1.990</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Porotos con rienda</td>
+                            <td>$3.990</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <button type="button" class="btn btn-primary">Eliminar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="/public/script.js"></script>
+</body>
+
+</html>
